@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TapirCode Labs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="logo">
+        <img src="img/tapircode.png" alt="TapirCode Labs Logo" class="logo-img">
+        <span style="color:white; font-weight: 800; font-size: 1.2rem;">TapirCode Labs</span>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar-menu">
+      <a href="#beneficios" data-en="Benefits" data-es="Beneficios">Beneficios</a>
+      <a href="#proceso" data-en="Process" data-es="Proceso">Proceso</a>
+      <a href="#faq">FAQ</a>
+      <a href="mailto:tapircodelabs@gmail.com" data-en="Contact" data-es="Contacto">Contacto</a>
+      <button class="language-switch" onclick="toggleLanguage()">EN/ES</button>
+    </div>
+  </nav>
+
+  <header>
+    <div class="header-content">
+      <h1 data-en="Leave spreadsheets behind" data-es="Dejá atrás las hojas de cálculo">Dejá atrás las hojas de cálculo</h1>
+      <p data-en="We develop custom software for small businesses that need to automate processes and improve their efficiency." data-es="Desarrollamos software a medida para pequeñas empresas que necesitan automatizar procesos y mejorar su eficiencia.">Desarrollamos software a medida para pequeñas empresas que necesitan automatizar procesos y mejorar su eficiencia.</p>
+    </div>
+    <div class="header-image">
+      <img src="img/tapircode.png" alt="TapirCode Labs" class="header-logo">
+    </div>
+  </header>
+
+  <div class="images">
+    <div class="visual-card">
+      <span data-en="Technology in your business" data-es="Tecnología en tu empresa">Tecnología en tu empresa</span>
+    </div>
+    <div class="visual-card">
+      <span data-en="Custom software development" data-es="Desarrollo de software a medida">Desarrollo de software a medida</span>
+    </div>
+  </div>
+
+  <section class="benefits" id="beneficios">
+    <h2 data-en="Key Benefits" data-es="Beneficios clave">Beneficios clave</h2>
+    <ul>
+      <li data-en="<strong>Total automation</strong> of repetitive and operational tasks." data-es="<strong>Automatización total</strong> de tareas repetitivas y operativas."><strong>Automatización total</strong> de tareas repetitivas y operativas.</li>
+      <li data-en="<strong>100% adaptation</strong> to your real processes." data-es="<strong>Adaptación 100%</strong> a tus procesos reales."><strong>Adaptación 100%</strong> a tus procesos reales.</li>
+      <li data-en="<strong>Greater control and efficiency</strong>, without depending on Excel." data-es="<strong>Mayor control y eficiencia</strong>, sin depender de Excel."><strong>Mayor control y eficiencia</strong>, sin depender de Excel.</li>
+      <li data-en="<strong>Scalability and support</strong> to accompany your growth." data-es="<strong>Escalabilidad y soporte</strong> para acompañar tu crecimiento."><strong>Escalabilidad y soporte</strong> para acompañar tu crecimiento.</li>
+    </ul>
+  </section>
+
+  <section class="how-it-works" id="proceso">
+    <h2 data-en="How do we work?" data-es="¿Cómo trabajamos?">¿Cómo trabajamos?</h2>
+    <ol>
+      <li data-en="No-obligation analysis of your current processes." data-es="Análisis sin compromiso de tus procesos actuales.">Análisis sin compromiso de tus procesos actuales.</li>
+      <li data-en="Identification of automation opportunities." data-es="Identificación de oportunidades de automatización.">Identificación de oportunidades de automatización.</li>
+      <li data-en="Development of custom, functional and simple software." data-es="Desarrollo de software a medida, funcional y simple.">Desarrollo de software a medida, funcional y simple.</li>
+      <li data-en="Support during implementation and continuous assistance." data-es="Acompañamiento en la implementación y soporte continuo.">Acompañamiento en la implementación y soporte continuo.</li>
+    </ol>
+  </section>
+
+  <section class="cta">
+    <h3 data-en="Ready to leave spreadsheets behind?" data-es="¿Listo para dejar atrás las hojas de cálculo?">¿Listo para dejar atrás las hojas de cálculo?</h3>
+    <p data-en="Contact us today and receive a no-obligation analysis." data-es="Contactanos hoy y recibí un análisis sin compromiso.">Contactanos hoy y recibí un análisis sin compromiso.</p>
+    <a href="mailto:tapircodelabs@gmail.com"><button data-en="Request free analysis" data-es="Solicitar análisis gratuito">Solicitar análisis gratuito</button></a>
+  </section>
+
+  <section class="faq" id="faq">
+    <h2 data-en="Frequently Asked Questions" data-es="Preguntas frecuentes">Preguntas frecuentes</h2>
+    <ul>
+      <li data-en="<strong>Is custom software expensive?</strong><br>Not necessarily. We adapt to small business budgets." data-es="<strong>¿Es costoso un software a medida?</strong><br>No necesariamente. Nos adaptamos a presupuestos de pequeñas empresas."><strong>¿Es costoso un software a medida?</strong><br>No necesariamente. Nos adaptamos a presupuestos de pequeñas empresas.</li>
+      <li data-en="<strong>How long does development take?</strong><br>It depends on the project, but you can have a functional solution in weeks." data-es="<strong>¿Cuánto tarda el desarrollo?</strong><br>Depende del proyecto, pero podés tener una solución funcional en semanas."><strong>¿Cuánto tarda el desarrollo?</strong><br>Depende del proyecto, pero podés tener una solución funcional en semanas.</li>
+      <li data-en="<strong>What types of businesses do you serve?</strong><br>SMEs in all sectors: logistics, sales, services, administration, and more." data-es="<strong>¿Qué tipo de negocios atienden?</strong><br>Pymes de todos los rubros: logística, ventas, servicios, administración, y más."><strong>¿Qué tipo de negocios atienden?</strong><br>Pymes de todos los rubros: logística, ventas, servicios, administración, y más.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <img src="img/tapircode.png" alt="TapirCode Labs" class="footer-logo">
+      <span data-en="&copy; 2025 TapirCode Labs | Custom Software for small businesses" data-es="&copy; 2025 TapirCode Labs | Software a Medida para pequeñas empresas">&copy; 2025 TapirCode Labs | Software a Medida para pequeñas empresas</span>
+    </div>
+  </footer>
+
+  <script src="js/language.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
